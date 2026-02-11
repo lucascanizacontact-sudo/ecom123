@@ -223,6 +223,100 @@ h6 {
   color: #f43f5e;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.ml-64 {
+  margin-left: 16rem;
+}
+
+.space-y-2>*+* {
+  margin-top: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.border-t {
+  border-top: 1px solid var(--border);
+}
+
+.border-y-0 {
+  border-top-width: 0;
+  border-bottom-width: 0;
+}
+
+.border-l-0 {
+  border-left-width: 0;
+}
+
+.rounded-none {
+  border-radius: 0;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.bg-primary\/10 {
+  background-color: rgba(99, 102, 241, 0.1);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.hover\:bg-white\/5:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
+}
+
+.transition-colors {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 @media (min-width: 768px) {
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
