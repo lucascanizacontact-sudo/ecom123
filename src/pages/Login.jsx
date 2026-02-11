@@ -18,7 +18,7 @@ export default function Login() {
 
     return (
         <div className="min-h-screen flex items-center justify-center p-4">
-            <div className="glass-card p-8 w-full max- Berry max-w-md animate-fade-in">
+            <div className="glass-card p-8 w-full max-w-md animate-fade-in">
                 <h2 className="text-3xl font-bold mb-6 text-center">Welcome Back</h2>
                 <form onSubmit={handleLogin}>
                     <div className="input-group">
